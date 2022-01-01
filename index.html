@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To Do</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+ <link rel="icon"  href="images/check (2).png" type="images/check (2).png"> 
+ <link rel="stylesheet" href="css/fontawesome.min.css">
+ <link rel="stylesheet" href="css/all.min.css">
+<!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+
+</head>
+<body>
+<header>
+<!-- <div class="container"> -->
+<div class="header-main">
+    <div class="logo-image">
+    <img src="images/check (2).png" alt="">
+   </div>
+   <div class="logo-text">
+       <h2>Planned</h2>
+   </div>
+</div>
+<!-- </div> -->
+</header>
+
+<div class="content-Card">
+
+    <div class="container-card">
+    <h3>Add a taks due today!</h3>
+
+    <div class="card mt-3">
+
+        <div class="header-card">
+        <div class="date"></div>
+        <div class="logo-card"><img src="images/check (2).png" alt=""></div>
+        </div>
+
+        <div class="input-task-container">
+            <input type="text" class="input-task" placeholder="Add task">
+            <input type="hidden" id="saveIndex" />
+            <i class="fas fa-plus plus-icon"></i>
+            <span class="save-todo-btn">Save Edit</span>
+            <p class="empty-input-error"></p>
+            <input type="search" class="search-box mt-3" id="searchBox" style="font-family:'Font Awesome 5 Free'; font-weight: 600;" placeholder="&#xf002 Search">
+            
+        </div>
+
+
+        <div class="task-content">
+        <!-- <span class="tasbox">
+            <input class="input-checked" id="first" type="checkbox"> 
+            <label for="first" >One</label> 
+            <span><i class="far fa-trash-alt delete-button"></i></span>
+            <span><i class="far fa-edit edit-button"></i></span>       
+        </span> -->
+        </div>
+
+    </div>
+</div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
