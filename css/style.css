@@ -151,7 +151,7 @@ body {
   color: blue;
 }
 
-@media(Max-width:665px){
+@media(Max-width:680px){
     .container-card .input-task-container input {
         width: 80%;
         outline: none;
@@ -170,7 +170,7 @@ body {
         opacity: 1;
         width: 20%;
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
         display: none;
         background-color: rgb(172, 78, 117);
         border-radius: 3px;
